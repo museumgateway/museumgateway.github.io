@@ -1,28 +1,28 @@
 export default {
   seo:  {
     homepage: {
-      title: "homepage title goes here",
-      description: "homepage desc goes here",
+      title: "Museum Gateway | Get children involved in learning about museum careers",
+      description: "Let us encourage young people, parents, teachers, and career counselors to consider a career path that’s exciting and engaging.",
     },
     youth: {
-      title: "youth title goes here",
-      description: "youth description goes here",
+      title: "Museum Gateway | Youth",
+      description: "Get children involved in learning about museum careers",
     },
     parents: {
-      title: "parents title goes here",
-      description: "parents desc goes here",
+      title: "Museum Gateway | Parents",
+      description: "Get parents involved in learning about museum careers",
     },
     teachers: {
-      title: "teachers title goes here",
-      description: "teachers desc goes here",
+      title: "Museum Gateway | Teachers",
+      description: "Get teachershildren involved in learning about museum careers",
     },
     counselors: {
-      title: "counselors title goes here",
-      description: "counselors description goes here",
+      title: "Museum Gateway | Career Conselors",
+      description: "Get career counselors involved in learning about museum careers",
     },
     resources: {
-      title: "resources title goes here",
-      description: "resources description goes here",
+      title: "Museum Gateway | Resources",
+      description: "Resources for getting involved in learning about museum careers",
     },
   },
 }
