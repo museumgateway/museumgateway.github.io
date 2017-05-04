@@ -131,7 +131,7 @@ gulp.task('pug', function() {
     }}))
     .pipe(pug({
       locals: data,
-      pretty: true
+      pretty: false
     }))
     .pipe(evilicons())
     .pipe(gulp.dest(distPath))
