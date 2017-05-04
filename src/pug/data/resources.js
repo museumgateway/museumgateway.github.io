@@ -174,59 +174,7 @@ export default {
       ]
     },
     {
-      name: "The Griot Museum of Black History",
-      links:[
-        {
-          text: "Homepage",
-          url: "http://www.thegriotmuseum.com"
-        },
-      ]
-    },
-    {
-      name: "The Luminary",
-      links:[
-        {
-          text: "Homepage",
-          url: "http://theluminaryarts.com"
-        },
-        {
-          text: "Internships",
-          url: "http://theluminaryarts.com/about/internships"
-        },
-      ]
-    },
-    {
-      name: "The Magic House",
-      links:[
-        {
-          text: "Homepage",
-          url: "https://www.magichouse.org"
-        },
-        {
-          text: "Volunteer",
-          url: "https://www.magichouse.org/job-volunteer-opportunities/"
-        },
-        {
-          text: "Professional development",
-          url: "https://www.magichouse.org/educators/professional-development/"
-        },
-        {
-          text: "Programs",
-          url: "https://www.magichouse.org/events-programs/programs/"
-        },
-      ]
-    },
-    {
-      name: "The Mercantile Library at the University of Missouri-St. Louis",
-      links:[
-        {
-          text: "Homepage",
-          url: "http://www.umsl.edu/mercantile/"
-        },
-      ]
-    },
-    {
-      name: "Mildred Lane Kemper Art Museum at WashU",
+      name: "Mildred Lane Kemper Art Museum at Washington University",
       links:[
         {
           text: "Homepage",
@@ -479,6 +427,58 @@ export default {
         {
           text: "Education",
           url: "https://www.stlzoo.org/education/	"
+        },
+      ]
+    },
+    {
+      name: "The Griot Museum of Black History",
+      links:[
+        {
+          text: "Homepage",
+          url: "http://www.thegriotmuseum.com"
+        },
+      ]
+    },
+    {
+      name: "The Luminary",
+      links:[
+        {
+          text: "Homepage",
+          url: "http://theluminaryarts.com"
+        },
+        {
+          text: "Internships",
+          url: "http://theluminaryarts.com/about/internships"
+        },
+      ]
+    },
+    {
+      name: "The Magic House",
+      links:[
+        {
+          text: "Homepage",
+          url: "https://www.magichouse.org"
+        },
+        {
+          text: "Volunteer",
+          url: "https://www.magichouse.org/job-volunteer-opportunities/"
+        },
+        {
+          text: "Professional development",
+          url: "https://www.magichouse.org/educators/professional-development/"
+        },
+        {
+          text: "Programs",
+          url: "https://www.magichouse.org/events-programs/programs/"
+        },
+      ]
+    },
+    {
+      name: "The Mercantile Library at the University of Missouri-St. Louis",
+      links:[
+        {
+          text: "Homepage",
+          url: "http://www.umsl.edu/mercantile/"
         },
       ]
     },
