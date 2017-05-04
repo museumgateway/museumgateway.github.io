@@ -20,7 +20,7 @@ block page
       .resource__content
         p Have you ever wanted to know how to get hired at a museum? What are the various kinds of museums? What’s the salary range for distinct kinds of positions within a museum? To identify the attributes, skills, and experience needed to succeed in today’s museums, explore the resources listed on this page. Download PDF materials. Contact and visit museums, locally or wherever you travel. Learn as much as you about any museum that’s of interest to you. Get involved. Learn as much as you can about any museum that’s of interest to you. Get involved. Find out who's hiring! Check out the resources below.
         
-      h2.resource__heading Links
+      h2.page__heading Links
         
       div
         for item in resources
@@ -30,7 +30,7 @@ block page
               for link in item.links
                 a(href=`${link.url}` class="resource__text-link")=link.text
                 
-      h2.resource__heading Downloads
+      h2.page__heading Downloads
       
       div
         div
