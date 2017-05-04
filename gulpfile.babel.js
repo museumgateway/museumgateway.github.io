@@ -154,6 +154,11 @@ gulp.task('moveDocs', function() {
     .pipe(gulp.dest('./dist'));
 });
 
+gulp.task('moveCNAME', function() {
+  return gulp.src('CNAME')
+    .pipe(gulp.dest('./dist'));
+});
+
 gulp.task('moveModernizer', function() {
   return gulp.src('src/js/vendor/modernizr.js')
     .pipe(gulp.dest('./dist'));
@@ -179,7 +184,7 @@ gulp.task('log', () => {
   console.dir(data);
 });
 
-gulp.task('deploy', ['stylusProd'],  function() {
+gulp.task('deploy', ['stylusProd', 'moveCNAME'],  function() {
   return gulp.src('./dist/**/*')
     .pipe(ghPages({
       branch: 'master'
