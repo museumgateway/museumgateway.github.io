@@ -25,6 +25,9 @@
     text-align left
     font-family: Condensed.font
 
+    &:last-of-type
+      border none
+
     +below(660px)
       flex-direction column
       text-align center
@@ -36,7 +39,7 @@
     &:hover
       background-color #0fc
 
-    &:nth-of-type(even)
+    &:nth-of-type(odd)
       background-color #f5f5f5
 
       &:hover
