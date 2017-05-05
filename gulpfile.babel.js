@@ -59,7 +59,7 @@ const autoprefixerOptions = {
 browserSync.create();
 
 // Static Server + watching styl/html files
-gulp.task('serve', ['stylus', 'pug', 'imgs', 'js', 'moveModernizer'], function() {
+gulp.task('serve', ['stylus', 'pug', 'imgs', 'js', 'moveModernizer', 'moveDocs'], function() {
   browserSync.init({
     server: distPath,
     browser: defaultBrowser
@@ -162,6 +162,11 @@ gulp.task('moveCNAME', function() {
 gulp.task('moveModernizer', function() {
   return gulp.src('src/js/vendor/modernizr.js')
     .pipe(gulp.dest('./dist'));
+});
+
+gulp.task('moveDocs', function() {
+  return gulp.src('src/docs/*')
+    .pipe(gulp.dest('./dist/docs'));
 });
 
 

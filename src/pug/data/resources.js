@@ -1,6 +1,15 @@
 export default {
   resources: [
     {
+      name: "American Alliance of Museums: Careers and JobHQ",
+      links:[
+        {
+          text: "Careers",
+          url: "http://www.aam-us.org/resources/careers"
+        },
+      ]
+    },
+    {
       name: "American Kennel Club Museum of the Dog",
       links:[
         {
@@ -492,15 +501,6 @@ export default {
         {
           text: "Employment",
           url: "http://www.worldchesshof.org/about/board-of-directors-and-staff/employment-opportunities/"
-        },
-      ]
-    },
-    {
-      name: "American Alliance of Museums: Careers and JobHQ",
-      links:[
-        {
-          text: "Careers",
-          url: "http://www.aam-us.org/resources/careers"
         },
       ]
     },

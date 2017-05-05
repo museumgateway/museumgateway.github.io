@@ -5,7 +5,7 @@ export default {
       links:[
         {
           text: "Download",
-          url: "http://www.museumofthedog.org"
+          url: "/docs/museum-gateway-handout.pdf"
         }
       ]
     },
