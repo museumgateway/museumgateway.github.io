@@ -14,19 +14,23 @@
       margin 3rem 2rem
 
 
+  &__list
+    padding  3rem 0
+
   &__item
-    //background-color fog
-    // border-bottom 1px solid fog
-    // margin 1%
-    // padding 2rem
-    // text-align center
-    // flex-basis 30%
     border-bottom 1px solid fog
     display flex
     align-items center
     justify-content flex-start
     text-align left
     font-family: Condensed.font
+
+    +below(660px)
+      flex-direction column
+      text-align center
+      padding 1rem 0
+      justify-content center
+      text-align center
 
     &:hover
       background-color #0fc
@@ -43,40 +47,40 @@
     font-size 1rem
     font-weight normal
     line-height 1
-    padding-left 1rem
-    text-align left
-    //flex-basis 50%
+    text-align right
+    flex-basis 50%
+
+    +below(660px)
+      font-size 1.25rem
+      padding-bottom .5rem
+      text-align center
 
   &__links
-    //flex-basis 50%
+    flex-basis 50%
     padding-left 2rem
+
+    +below(660px)
+      padding 0
 
   &__button
     margin-right 1rem
     display inline-flex
 
   &__text-link
-    border 1px solid indigo
-    padding .1rem
-    margin .1rem
+    background-color indigo
+    color white
+    border 1px solid transparent
+    padding .1rem .5rem
+    margin .2rem
     text-align center
 
     display block
     font-family: Condensed.font
     font-size 1rem
-    color indigo
     display inline-block
     font-weight 400
-    //padding .5rem 1rem
 
-    +below(660px)
-      //
-
-    // color indigo
-    // display inline-block
-    // font-weight 100
-    // padding .5rem
-    //
-    // &:hover
-    //   background-color indigo
-    //   color white
+    &:hover
+      background-color white
+      color indigo
+      border 1px solid indigo

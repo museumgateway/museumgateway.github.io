@@ -22,7 +22,7 @@ block page
         
       h2.page__heading Links
         
-      div
+      div.resource__list
         for item in resources
           .resource__item
             h2.resource__subheading=item.name
@@ -32,11 +32,10 @@ block page
                 
       h2.page__heading Downloads
       
-      div
-        div
-          for item in downloads
-            .resource__item
-              h2.resource__subheading=item.name
-              .resource__links
-                for link in item.links
-                  a(href=`${link.url}` class="resource__text-link")=link.text
+      div.resource__list
+        for item in downloads
+          .resource__item
+            h2.resource__subheading=item.name
+            .resource__links
+              for link in item.links
+                a(href=`${link.url}` class="resource__text-link")=link.text

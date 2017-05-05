@@ -39,7 +39,7 @@
         transform translateX(-20%)
         will-change transform
 
-        +below(660px)
+        +below(900px)
           flex-direction column
 
         &.move
@@ -47,9 +47,11 @@
 
         .stats__subheading
           text-align right
+          padding 0 2rem 0 0
 
-          +below(660px)
-            text-align left
+          +below(960px)
+            padding 2rem 1rem
+            text-align center
 
   &__heading
     padding 5rem 0
@@ -66,15 +68,19 @@
 
   &__subheading
     flex 2
-    padding 0 2rem
+    padding 0 0 0 2rem
     text-align left
     max-width 800px
     opacity 0
     transition opacity 3s
     will-change transform
 
-    +below(660px)
+    +below(1024px)
+      font-size 1.5rem
+
+    +below(960px)
       padding 2rem 1rem
+      text-align center
 
     &.reveal
       opacity 1
@@ -87,7 +93,10 @@
     transform translateX(20%)
     transition transform 1.5s ease-in-out
 
-    +below(660px)
+    +below(1024px)
+      padding 0 3rem
+
+    +below(900px)
       flex-direction column
 
     &.move
@@ -123,9 +132,9 @@
     box-shadow inset 0 20px 20px rgba(0, 0, 0, 0.3)
 
 .dataSource
-  color cyan
+  color lighten(indigo, 50%)
+  display block
   font-size .8rem
+  line-height 1
+  padding-top 1rem
   text-shadow none
-
-  &:before
-    content: '- '
