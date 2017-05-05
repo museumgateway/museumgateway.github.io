@@ -1,6 +1,15 @@
 export default {
   resources: [
     {
+      name: "Alliance of Black Art Galleries",
+      links:[
+        {
+          text: "Info",
+          url: "http://blackartinamerica.com/profiles/blogs/alliance-of-black-art-galleries-new-organization-formed-in-st"
+        }
+      ]
+    },
+    {
       name: "American Alliance of Museums: Careers and JobHQ",
       links:[
         {
@@ -15,15 +24,6 @@ export default {
         {
           text: "Homepage",
           url: "http://www.museumofthedog.org"
-        }
-      ]
-    },
-    {
-      name: "Alliance of Black Art Galleries",
-      links:[
-        {
-          text: "Info",
-          url: "http://blackartinamerica.com/profiles/blogs/alliance-of-black-art-galleries-new-organization-formed-in-st"
         }
       ]
     },
