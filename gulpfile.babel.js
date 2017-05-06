@@ -149,11 +149,6 @@ gulp.task('imgs', function () {
 });
 
 
-gulp.task('moveDocs', function() {
-  return gulp.src('src/js/index.js')
-    .pipe(gulp.dest('./dist'));
-});
-
 gulp.task('moveCNAME', function() {
   return gulp.src('CNAME')
     .pipe(gulp.dest('./dist'));
