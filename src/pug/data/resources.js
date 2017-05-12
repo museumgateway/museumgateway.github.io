@@ -332,7 +332,7 @@ export default {
           url: "http://racstl.org/about-rac/job-opportunities/"
         },
         {
-          text: "internships",
+          text: "Internships",
           url: "http://racstl.org/about-rac/internships/"
         },
       ]
